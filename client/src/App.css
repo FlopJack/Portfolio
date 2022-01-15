@@ -1,9 +1,11 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #faf5cf;
   min-height: 100vh;
 }
-
+.font-face-gm {
+  font-family: "Fresco";
+ }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
