@@ -1,9 +1,9 @@
 
-import Panneau from './Headers/Panneau'
+import Television from './Headers/Television'
 
 export default function Accueil(){
 return(
-    <div><Panneau/></div>
+    <div><Television/></div>
 )
 
 }
