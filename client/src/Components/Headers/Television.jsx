@@ -1,7 +1,8 @@
 import "./Television.css";
-import television from "../Img/teleCalqueBonReduit.svg";
-
+import television from "../Img/teleCalqueBonReduit.png";
+import ImageMap from "image-map";
 export default function Television() {
+  ImageMap("img[usemap]");
   return (
     <div>
       <img useMap='#imageMap' id='tv' src={television} alt='Logo' />
