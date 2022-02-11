@@ -1,7 +1,6 @@
 import '../Style/Television.css';
-import television from '../Img/TeleSansScreenTest.png';
+import television from '../Img/teleCalqueBonReduit.png';
 
-import { useEffect } from "react";
 import ImageMap from 'image-map';
 import { useEffect } from 'react';
 export default function Television() {
@@ -20,7 +19,7 @@ export default function Television() {
 	}
 
 	return (
-      <>
+      <div id='divTV'>
 			<div className='screen screen-off'>
        
         <div className='screenWelcome'>Welcome</div>
@@ -38,10 +37,10 @@ export default function Television() {
 						turOnOffTV();
 					}}
 					id='tvButton'
-					coords='2323,1910,24'
+					coords='610,554,24'
 					shape='circle'
 				/>
 			</map>
-</>
+</div>
 	);
 }

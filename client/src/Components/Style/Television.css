@@ -4,11 +4,16 @@
 	max-height: 100%;
 	position: relative;
 }
+#divTV{
+  width: 45%;
+  display: inline-flex;
+  justify-content: center;
+}
 
 .screen {
-  background-color: red;
+  background-color: rgb(54, 54, 54);
   z-index: 1;
-  width: 100%;
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,11 +22,9 @@
 }
 
 .screenWelcome {
-	z-index: 2;
-	background: rgb(10, 13, 223);
+	background: rgba(10, 14, 223, 0);
   position: absolute;
-
-
+  color: #00FF00;
 }
 
 @keyframes flicker {
@@ -177,7 +180,6 @@
 }
 .screen-on::after {
 	content: ' ';
-
 	position: absolute;
 	top: 0;
 	left: 0;
