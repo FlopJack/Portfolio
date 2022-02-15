@@ -1,11 +1,13 @@
+import Footer from "./Footer/Footer";
+import Header from "./Headers/Header";
+import Television from "./Tv/Television";
 
-import Television from './Headers/Television'
-
-export default function Accueil(){
-return(
-    
-        
-    <Television/>
-)
-
+export default function Accueil() {
+  return (
+    <>
+      <Header />
+      <Television />
+      <Footer />
+    </>
+  );
 }
