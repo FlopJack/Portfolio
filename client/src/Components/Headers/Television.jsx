@@ -1,4 +1,4 @@
-import '../Style/Television.css';
+import '../Style/Television.scss';
 import television from '../Img/teleCalqueBonReduit.png';
 
 import ImageMap from 'image-map';
@@ -9,6 +9,7 @@ export default function Television() {
 	}, []);
 	function turOnOffTV() {
 		let screen = document.getElementsByClassName('screen');
+    let screenWelcome = document.getElementsByClassName('screenWelcome');
 		if (screen.item(0).classList.contains('screen-off')) {
 			screen[0].classList.remove('screen-off');
 			screen[0].classList.add('screen-on');
@@ -20,7 +21,7 @@ export default function Television() {
 
 	return (
       <div id='divTV'>
-			<div className='screen screen-off'>
+			<div className='screen screen-off container'>
        
         <div className='screenWelcome'>Welcome</div>
 				<img src={television} useMap='#imageMap' alt='' id='tv' />
