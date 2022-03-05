@@ -1,4 +1,4 @@
-import "../Style/Television.css";
+import "../Style/Television.scss";
 import television from "../Img/teleCalqueBonReduit.png";
 
 import ImageMap from "image-map";
