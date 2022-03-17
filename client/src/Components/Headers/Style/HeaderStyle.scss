@@ -1,0 +1,29 @@
+$text-color: white;
+#header {
+  height: 200px;
+  overflow-x: hidden;
+  display: inline-flex;
+  .title {
+    color: $text-color;
+    font-size: 6vw;
+    font-family: "Friday13";
+    position: relative;
+    animation: slidein 2.4s;
+    display: inline-flex;
+    margin-top: 5vh;
+  }
+
+  @keyframes slidein {
+    0% {
+      right: -900px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+
+  @for $i from 1 through 5 {
+    .letter#{$i} {
+    }
+  }
+}

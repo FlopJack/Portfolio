@@ -1,0 +1,56 @@
+.right1 {
+  color: rgb(255, 255, 255);
+  margin-left: 200px;
+  position: absolute;
+  transform: rotateY(36deg) translateZ(50px);
+  font-family: "Friday13";
+  perspective: 250px;
+  //animation: move 6s linear;
+  p {
+  }
+}
+
+.left {
+  color: white;
+  transform: skewY(15deg);
+  display: none;
+}
+
+@keyframes move {
+  5% {
+    left: 5%;
+    transform: scale(0.67);
+    transform: skewY(-20deg);
+    //transform-origin: left center;
+  }
+  10% {
+    left: 10%;
+    transform: scale(0.77);
+    transform: skewY(-30deg);
+    //transform-origin: left center;
+  }
+  15% {
+    left: 15%;
+    transform: scale(0.87);
+    transform: skewY(-35deg);
+    //transform-origin: left center;
+  }
+  20% {
+    left: 20%;
+    transform: scale(0.97);
+    transform: skewY(-40deg);
+    //transform-origin: left center;
+  }
+  25% {
+    left: 25%;
+    transform: scale(1);
+    transform: skewY(-45deg);
+    //transform-origin: left center;
+  }
+  100% {
+    left: 45%;
+    transform: scale(2);
+    transform: skewY(-50deg);
+    //transform-origin: left center;
+  }
+}

@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,12 +9,14 @@ body {
 
 @font-face {
   font-family: "Fresco";
-  src: local("FrescoStamp"),
-   url("./Fonts/Fresco-Stamp.ttf") format("truetype");
-
-  }
+  src: local("FrescoStamp"), url("./Fonts/Fresco-Stamp.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Friday13";
+  src: local("Friday13v12"), url("./Fonts/Friday13v12.ttf") format("truetype");
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
