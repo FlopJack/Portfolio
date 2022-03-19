@@ -27,7 +27,11 @@ export default function Television() {
       <div id='divTV'>
         <div className='backscreen'>
           <div className='screenWelcome'>
-            {reactLogo ? <img src={logoReact} className="imgLogo" width='50%' /> : <></>}
+            {reactLogo ? (
+              <img src={logoReact} className='imgLogo' width='50%' />
+            ) : (
+              <></>
+            )}
           </div>
           <div className='screen screen-off'></div>
           <img src={television} useMap='#imageMap' alt='' id='tv' />
