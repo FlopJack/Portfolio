@@ -1,4 +1,4 @@
-import Door from "./Door/Door";
+import Tunnel from "./Tunnel/Tunnel";
 import Footer from "./Footer/Footer";
 import Header from "./Headers/Header";
 
@@ -6,7 +6,7 @@ export default function Accueil() {
   return (
     <>
       <Header />
-      <Door />
+      <Tunnel />
       <Footer />
     </>
   );
