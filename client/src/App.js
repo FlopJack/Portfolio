@@ -4,11 +4,11 @@ import './Components/Style/reset.css';
 import Accueil from './Components/Accueil';
 
 function App() {
-	return (<div className='App'>
+    return (<div className=''>
 
-  <Accueil/>
+        <Accueil/>
 
-  </div>);
+    </div>);
 }
 
 export default App;
