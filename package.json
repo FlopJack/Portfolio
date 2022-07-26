@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@react-three/drei": "^9.17.1",
+    "three": "^0.142.0",
+    "three-globe": "^2.24.6",
+    "three-stdlib": "^2.12.1"
+  }
+}

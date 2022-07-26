@@ -24,7 +24,7 @@ export default function Television() {
 
   return (
     <>
-      <div id='divTV'>
+      <div id='divTV' className="imgLogo">
         <div className='backscreen'>
           <div className='screenWelcome'>
             {reactLogo ? (
@@ -35,6 +35,7 @@ export default function Television() {
           </div>
           <div className='screen screen-off'></div>
           <img src={television} useMap='#imageMap' alt='' id='tv' />
+  
         </div>
         <map name='imageMap'>
           <area
@@ -53,7 +54,6 @@ export default function Television() {
         </map>
       </div>
       <div>
-        <h1 style={{ color: "white" }}>Test couleur</h1>
       </div>
     </>
   );

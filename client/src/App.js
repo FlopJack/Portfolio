@@ -4,7 +4,7 @@ import './Components/Style/reset.css';
 import Accueil from './Components/Accueil';
 
 function App() {
-    return (<div className=''>
+    return (<div className='App'>
 
         <Accueil/>
 
